@@ -13,7 +13,7 @@ fn main() {
     let c: f64 = 6.0;
 
     // Calcule o delta usando a função do módulo 'delta'
-    let delta = delta::calcular_delta(a, b, c);
+    let delta: f64 = delta::calcular_delta(a, b, c);
 
     // Calcule os valores de x usando a função do módulo 'valores_de_x'
     match x_values::calcular_valores_de_x(a, b, delta) {
